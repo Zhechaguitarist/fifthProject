@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+<form name="form1" method="post" action="front/user.js">
+    <p><span>Введите логин</span><br>
+        <label for="login"></label><input type="text" id="login" name="login">
+    </p>
+    <p><span>Введите пароль</span><br>
+        <label for="password"></label><input type="password" id="password" name="password" />
+    </p>
+    <p><span>OK</span><br>
+        <input type="button" id="button" onclick="getUser()" name="button" />
+    </p>
+</form>
+<script src="front/user.js"></script>
+</body>
+</html>
